@@ -95,16 +95,15 @@ class LightboxImageGallery extends React.Component {
                 />
               </div>
             ))}
-
             <span className="prev" onClick={() => this.plusSlides(-1)}>
               &#10094;
             </span>
             <span className="next" onClick={() => this.plusSlides(1)}>
               &#10095;
             </span>
-
             <div className="caption-container">
               <p id="caption"></p>
+              {images[this.state.slideIndex - 1].caption}
             </div>
             {images.map(image => (
               <div className="column" key={image.id}>
