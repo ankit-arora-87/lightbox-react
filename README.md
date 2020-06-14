@@ -16,3 +16,6 @@
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+
+### Special Notes
+- I have provided `assets` folder & `images.js` file for providing list of images with its all variants to render into lightbox component
